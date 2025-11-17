@@ -6,6 +6,7 @@ body, main{
 body{
     flex-direction: column;
     display: flex;
+    background-color: rgb(235, 235, 235);
 }
 
 main{
@@ -21,4 +22,67 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+    background-color: rgb(235, 235, 235);
+    color: rgb(141, 0, 0);
+
+}
+
+
+/* personal styling */
+
+header{
+    border-bottom: 1px solid black ;
+    padding-bottom: 20px;
+}
+
+
+h1, h2, h3{
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+/* hover on nav menu */
+nav a {
+    position: relative;
+    padding: 5px 0;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;            /* start hidden */
+    height: 2px;
+    background: #000;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;          /* expands to full width */
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+img{
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+footer{
+    border-top: 2px solid black;
+    padding: 20px;
+}
+
+footer p a{
+    color: blue;
 }
