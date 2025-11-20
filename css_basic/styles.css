@@ -38,7 +38,7 @@ header{
 
 h1, h2, h3{
     color: cadetblue;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* hover on nav menu */
@@ -54,7 +54,7 @@ nav a::after {
     bottom: 0;
     width: 0%;            /* start hidden */
     height: 2px;
-    background: #000;
+    background: cadetblue;
     transition: width 0.3s ease;
 }
 
