@@ -60,3 +60,159 @@ button{
     box-shadow: 0 1px 6px 4px rgba(0,0,0,0.2);
 
 }
+
+
+
+.pros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0;
+    
+}
+
+.pros p {
+    color: #FFFFFF;
+    font-family: "Source Sans Pro", sans-serif ;
+}
+
+.pros-text{
+    font-size: 32px;
+
+}
+
+.pros-text span{
+    color: #C271FF;
+}
+
+.main-pros{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;          
+    gap: 80px;                     
+    flex-wrap: wrap;
+}
+
+
+.main-pros img{
+    border-radius: 50%;
+}
+
+.main-pros h3{
+    color: #FFFFFF;
+}
+
+.main-pros p{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.quote{
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 0;
+}
+
+.quote img{
+    border-radius: 50%;
+}
+
+
+.quote-text{
+    color: #FFFFFF;
+    font-family: "Source Sans Pro", sans-serif;
+    
+    
+}
+
+.quote-text p{
+    font-style: italic;
+}
+
+.quote-text blockquote{
+    margin: 0;               
+}
+
+.videos-section{
+    background-color: #FFFFFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+    text-align: start;
+
+
+}
+
+.videos-section h2{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.videos-section p{
+    font-size: 16px;
+    color: #929292;
+}
+
+.videos-section span{
+    color: #C271FF;
+
+}
+
+.videos{
+    display: flex;
+    
+}
+
+
+.small{
+    display: flex;
+    align-items: center; 
+    gap: 12px; 
+}
+
+.small h4{
+    color: #C271FF;
+    font-size: 14px;
+}
+
+.small img{
+    border-radius: 50%;
+}
+
+
+.stars{
+    display: flex;
+    color: #C271FF;
+    font-size: small;
+    gap: 5px;
+}
+
+.videos .time{
+    color: #C271FF;
+}
+
+
+.meta{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 100%; 
+    margin-top: 8px;
+}
+
+.meta .stars{
+    display: flex;
+    gap: 5px;
+    color: #C271FF;
+}
+
+.meta .time{
+    color: #C271FF;
+    margin: 0;
+    font-size: 0.9rem;
+}
