@@ -216,3 +216,30 @@ button{
     margin: 0;
     font-size: 0.9rem;
 }
+
+
+.membership{
+    background-color: #071629;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.membership h2 span{
+    color: #C271FF;
+
+}
+
+.membership-tier{
+    display: flex;
+    padding: 50px 80px;
+    gap: 90px;
+    text-align: center;
+}
+
+.membership-tier p{
+    font-size: 12px;
+}
