@@ -1,10 +1,10 @@
-body{
-    background-image: url(images/Object.png) ;
+body {
+    background-image: url(images/Object.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +12,7 @@ nav{
     margin-top: 20px;
 }
 
-nav a{
+nav a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 12px;
@@ -22,7 +22,7 @@ nav a{
 
 }
 
-.banner{
+.banner {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -31,84 +31,85 @@ nav a{
 
 }
 
-.banner h1{
+.banner h1 {
     color: #FFFFFF;
     font-size: 110px;
     font-family: "Source Sans Pro", sans-serif;
 }
 
-.span{
+.span {
     margin-bottom: 30px;
     margin-top: -80px;
 
 }
 
-.span-text{
+.span-text {
     color: #FFFFFF;
     padding-right: 30px;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
 }
 
-button{
+button {
     background-color: #C271FF;
     color: #FFFFFF;
     font-size: 10px;
     padding: 12px;
     border-radius: 25px;
     border: 0px;
-    box-shadow: 0 1px 6px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 6px 4px rgba(0, 0, 0, 0.2);
 
 }
 
 
 
-.pros{
+.pros {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 80px 0;
-    
+
 }
 
 .pros p {
     color: #FFFFFF;
-    font-family: "Source Sans Pro", sans-serif ;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-.pros-text{
+.pros-text {
     font-size: 32px;
 
 }
 
-.pros-text span{
+.pros-text span {
     color: #C271FF;
+    font-weight: 800;
 }
 
-.main-pros{
+.main-pros {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;          
-    gap: 80px;                     
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
     flex-wrap: wrap;
 }
 
 
-.main-pros img{
+.main-pros img {
     border-radius: 50%;
 }
 
-.main-pros h3{
+.main-pros h3 {
     color: #FFFFFF;
 }
 
-.main-pros p{
+.main-pros p {
     color: #FFFFFF;
     font-style: italic;
 }
 
-.quote{
+.quote {
     background-color: #C271FF;
     display: flex;
     justify-content: center;
@@ -116,27 +117,27 @@ button{
     padding: 70px 0;
 }
 
-.quote img{
+.quote img {
     border-radius: 50%;
 }
 
 
-.quote-text{
+.quote-text {
     color: #FFFFFF;
     font-family: "Source Sans Pro", sans-serif;
-    
-    
+
+
 }
 
-.quote-text p{
+.quote-text p {
     font-style: italic;
 }
 
-.quote-text blockquote{
-    margin: 0;               
+.quote-text blockquote {
+    margin: 0;
 }
 
-.videos-section{
+.videos-section {
     background-color: #FFFFFF;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 20px;
@@ -148,80 +149,80 @@ button{
 
 }
 
-.videos-section h2{
+.videos-section h2 {
     padding-bottom: 50px;
     text-align: center;
     font-weight: 400;
 }
 
-.videos-section p{
+.videos-section p {
     font-size: 16px;
     color: #929292;
 }
 
-.videos-section span{
+.videos-section span {
     color: #C271FF;
     font-weight: 600;
 
 
 }
 
-.videos{
+.videos {
     display: flex;
-    
+
 }
 
 
-.small{
+.small {
     display: flex;
-    align-items: center; 
-    gap: 12px; 
+    align-items: center;
+    gap: 12px;
 }
 
-.small h4{
+.small h4 {
     color: #C271FF;
     font-size: 14px;
 }
 
-.small img{
+.small img {
     border-radius: 50%;
 }
 
 
-.stars{
+.stars {
     display: flex;
     color: #C271FF;
     font-size: small;
     gap: 5px;
 }
 
-.videos .time{
+.videos .time {
     color: #C271FF;
 }
 
 
-.meta{
+.meta {
     display: flex;
     align-items: center;
     gap: 100px;
-    width: 100%; 
+    width: 100%;
     margin-top: 8px;
 }
 
-.meta .stars{
+.meta .stars {
     display: flex;
     gap: 5px;
     color: #C271FF;
 }
 
-.meta .time{
+.meta .time {
     color: #C271FF;
     margin: 0;
     font-size: 0.9rem;
 }
 
 
-.membership{
+.membership {
     background-color: #071629;
     color: #FFFFFF;
     display: flex;
@@ -231,61 +232,61 @@ button{
     font-family: "Source Sans Pro", sans-serif;
 }
 
-.membership h2{
+.membership h2 {
     font-weight: 400;
 }
 
-.membership h2 span{
+.membership h2 span {
     color: #C271FF;
     font-weight: 600;
 
 
 }
 
-.membership-tier{
+.membership-tier {
     display: flex;
     padding: 50px 80px;
     gap: 90px;
     text-align: center;
 }
 
-.membership-tier p{
+.membership-tier p {
     font-size: 12px;
 }
 
 
-.faqs{
+.faqs {
     background-color: #FFFFFF;
     font-family: "Source Sans Pro", sans-serif;
     padding: 40px 50px;
-    
+
 }
 
-.faqs h2{
+.faqs h2 {
     text-align: center;
     font-size: 50px;
     font-weight: 200;
 }
 
-.faq-box{
+.faq-box {
     gap: 30px;
     display: flex;
 }
 
-.faq-items{
+.faq-items {
     padding: 0 100px;
     gap: 30px;
 
 }
 
-footer{
+footer {
     background-color: #071629;
     color: #FFFFFF;
     padding: 50px;
 
 }
 
-.item-1{
+.item-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -299,8 +300,7 @@ footer{
 
 }
 
-footer p{
+footer p {
     text-align: center;
     font-size: 12px;
 }
-
